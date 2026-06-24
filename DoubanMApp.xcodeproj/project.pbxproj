@@ -747,7 +747,7 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-weak_library",
-					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"$(MonkeyDevPath)/Frameworks/libellekit.dylib",
 					"-lcycript",
 					"-framework",
 					LookinServer,
@@ -805,7 +805,7 @@
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-weak_library",
-					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"$(MonkeyDevPath)/Frameworks/libellekit.dylib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
