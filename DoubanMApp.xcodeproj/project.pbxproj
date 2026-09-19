@@ -136,7 +136,7 @@
 		BF1EF40C2FC2A57F007AB708 /* NJNetwork.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NJNetwork.mm; sourceTree = "<group>"; };
 		BF1EF40D2FC2A57F007AB708 /* NJNetwork.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = NJNetwork.xm; sourceTree = "<group>"; };
 		BF1EF40F2FC2A57F007AB708 /* RichMediaAd.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RichMediaAd.mm; sourceTree = "<group>"; };
-		BF1EF4102FC2A57F007AB708 /* RichMediaAd.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = RichMediaAd.xm; sourceTree = "<group>"; };
+		BF1EF4102FC2A57F007AB708 /* RichMediaAd.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = RichMediaAd.xm; sourceTree = "<group>"; };
 		BF1EF4122FC2A57F007AB708 /* NJAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJAsset.h; sourceTree = "<group>"; };
 		BF1EF4132FC2A57F007AB708 /* NJAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJAsset.m; sourceTree = "<group>"; };
 		BF1EF4142FC2A57F007AB708 /* NJCommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJCommonDefine.h; sourceTree = "<group>"; };

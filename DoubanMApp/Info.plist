@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>23H124</string>
+	<string>25G83</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
@@ -12,10 +12,6 @@
 	<string>豆瓣</string>
 	<key>CFBundleExecutable</key>
 	<string>Frodo</string>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>DoubanMApp/icon.png</string>
-	</array>
 	<key>CFBundleIcons</key>
 	<dict>
 		<key>CFBundlePrimaryIcon</key>
@@ -50,7 +46,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>7.109.0</string>
+	<string>7.134.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -131,29 +127,39 @@
 				<string>douban-sdk</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.tbopen</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>tbopen32713296</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>071090003</string>
+	<string>071340002</string>
 	<key>DOUPublishChannel</key>
 	<string>AppStore</string>
 	<key>DTAppStoreToolsBuild</key>
-	<string>16F7</string>
+	<string>27A261</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>22B74</string>
+	<string>23F73</string>
 	<key>DTPlatformName</key>
 	<string>iphoneos</string>
 	<key>DTPlatformVersion</key>
-	<string>18.1</string>
+	<string>26.5</string>
 	<key>DTSDKBuild</key>
-	<string>22B74</string>
+	<string>23F73</string>
 	<key>DTSDKName</key>
-	<string>iphoneos18.1</string>
+	<string>iphoneos26.5</string>
 	<key>DTXcode</key>
-	<string>1610</string>
+	<string>2650</string>
 	<key>DTXcodeBuild</key>
-	<string>16B40</string>
+	<string>17F42</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>ITSDRMScheme</key>
@@ -179,29 +185,30 @@
 		<string>bilibili</string>
 		<string>miguvideo</string>
 		<string>igetapp</string>
-		<string>cmread</string>
+		<string>iosamap</string>
 		<string>alipays</string>
 		<string>meituanmovie</string>
 		<string>jdlogin</string>
 		<string>tbopen</string>
 		<string>tmall</string>
+		<string>taobaolite</string>
 		<string>dianping</string>
 		<string>ctrip</string>
 		<string>iMeituan</string>
 		<string>vipshop</string>
 		<string>pinduoduo</string>
 		<string>xhsdiscover</string>
-		<string>iting</string>
+		<string>doubao</string>
 		<string>kwai</string>
 		<string>snssdk1128</string>
 		<string>snssdk141</string>
 		<string>eleme</string>
-		<string>zxbookstore</string>
+		<string>baidumap</string>
 		<string>onetravel</string>
 		<string>meituanwaimai</string>
 		<string>fleamarket</string>
 		<string>wbmain</string>
-		<string>sohuvideo</string>
+		<string>tongyi</string>
 		<string>lianjiabeike</string>
 		<string>qunariphone</string>
 		<string>ksnebula</string>
@@ -216,7 +223,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
-	<string>13.0</string>
+	<string>15.0</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -230,12 +237,21 @@
 	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>用于实时拍摄图片或视频进行分享或认证，使用扫一扫、设置封面、设置头像、提交反馈，以及文字识别功能。</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>豆瓣申请获取你的位置权限，用于电影票务、同城活动、信息推送、广告服务、地点签到。</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>CheckinPreciseLocation</key>
+		<string>地点签到功能需要获取你的位置信息</string>
+	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>豆瓣申请获取你的位置权限，用于电影票务、同城活动、信息推送、广告服务。</string>
+	<string>豆瓣申请获取你的位置权限，用于电影票务、同城活动、信息推送、广告服务、地点签到。</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>豆瓣申请获取你的麦克风权限，用于发布语音回复</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>用于选取图片、发布图片或视频，以及保存图片到设备。</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>用于提交反馈，发布图片或视频，保存图片到设备，以及文字识别功能。</string>
+	<string>用于提交反馈，发布图片或视频，私信，保存图片到设备，以及文字识别功能。</string>
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>com.douban.frodo.UserActivity</string>
